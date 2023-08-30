@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="mailto:kathleendeisytecnico@mail.com" method="post">
+        <label>Nome do aluno</label>
+        <input type="text" required> 
+        <br>
+        <label>Número de celular</label>
+        <input type="number">
+        <br>
+        <label>Cep</label>
+        <input type="number">
+        <input value="Cadastre-se" type="submit">
+        <br>
+
+        <fieldset>
+            <h4>Escolha sua música</h4>
+            <input type="radio" name="musica">
+            <label>Paladar infantil</label>
+            <br>
+            <input type="radio" name="musica">
+            <label>Filho do Dono</label>
+            <br>
+            <input type="radio" name="musica">
+            <label>Bailena</label>
+        </fieldset>
+
+
+        <h4>Sabor da pipoca</h4>
+        <input type="checkbox">
+        <label>doce</label>
+        <br>
+        <input type="checkbox">
+        <label>Salgado</label>
+        <br>
+        <input type="checkbox">
+        <label>mista</label>
+        <br>
+        <input type="checkbox">
+        <label>artesanal</label>
+        <br>
+
+        <!-- tipo range -->
+        <label for="">05</label>
+        <input type="range">
+        <label for="">100</label>
+        <br>
+
+
+
+        <!-- Tag Select -->
+        <label for="">Sorvete</label>
+        <select name="" id="">
+            <option value="Selecione">Selecione</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="morango">morango</option>
+            <option value="Ouro branco">Ouro branco</option>
+            <option value="mouse Maracuja">mouse Maracuja</option>
+            <option value="mouse de limão">mouse de limão</option>
+        </select>
+        <br>
+        <br>
+
+        <!-- datalist -->
+        <label for="">Filmes</label>
+        <input type="text" list="Filmes">
+        <br>
+        <datalist id="Filmes">
+            <option value="Crepsculo">Crepsculo</option>
+            <option value="A Freira ">A Freira</option>
+            <option value="Annabelle">Annabelle</option>
+            <option value="Invocação do Mal">Invocação do Mal</option>
+            <option value="Quatro Amigas Numa Fria">Quatro Amigas Numa Fria</option>
+        </datalist>
+        <br><br><br><br>
+
+        <!-- textarea -->
+        <!-- Cols: Colunas
+            Rows: Linhas  -->
+        <fieldset>
+            <legend>Fale sobre o seu filme favorito</legend>
+            <label for="">Filmes</label>
+            <input type="text">
+            <textarea cols="30" rows="10"></textarea>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Fala sobre o seu show favorito da xuxa</legend>
+            <label for="">O show da xuxa</label>
+            <input type="text">
+            <textarea cols="30" rows="10"></textarea>
+
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
