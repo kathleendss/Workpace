@@ -1,0 +1,32 @@
+#primeiraDiv{
+/* grosura da borda /estilo borda /cor da borda*/
+    border: 5px dashed #7fffd4;
+}
+
+#segundaDiv{
+
+    border: 2px dotted rgb(210,105,30);
+}
+/* Ajustando largura e altura da imagem  */
+img {
+    width: 500px;/* largura */
+    height: 500px;/* Altura */
+}
+
+#foto1{
+    width: 200;
+    height: 200;
+}
+#foto2{
+    width: 300;
+    height: 300;
+
+}
+
+/* imagem de fundo utilizando atributo background-imagem */
+body {
+    background-image: url("img/ceu-azul-nuven.jpg");
+    background-attachment: fixed;
+    background-size: 500px 500px;
+    
+}
